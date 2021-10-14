@@ -1,0 +1,14 @@
+El comando cp  . no s permite compiar tanto archivos como carpetas
+y se utiliza de la siguiente manera
+cp origen destino
+
+Dentro de sus parametros esta la  opcion -r  que esto permite copiar recursivamente desde la carpeta en cuestion en adelante, y todos sus contenidos tanto achivos como carpetas
+
+ejemplos cp /origen/archivo /destino/carpeta/
+copiara el archivo "archivo" a la carpeta destino/carpeta/
+cp -r /origen /carpeta/
+copaira la caperta origen y todo su contenido  dentro de la carpeta "carpeta"
+
+cp * /destino/
+copiara todos los archivos de cualquir nombre dentro de la carpeta "destino"
+
